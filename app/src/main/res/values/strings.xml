@@ -32,4 +32,8 @@
     <string name="andar_layout">Andar: %d</string>
     <string name="tipo_do_imovel_layout">Tipo do imovel: %s</string>
     <string name="valor_do_imposto_layout">Valor do imposto: R$%.2f</string>
+    <string name="selecione_a_casa_que_deseja_editar">Selecione a casa que deseja editar</string>
+    <string name="edite_sua_casa">Edite sua casa:</string>
+    <string name="realizar_alteracoes">Realizar alterações</string>
+    <string name="alteracoes_realizadas">Alterações realizadas com sucesso</string>
 </resources>

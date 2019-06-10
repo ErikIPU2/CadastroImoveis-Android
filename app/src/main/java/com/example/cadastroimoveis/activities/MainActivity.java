@@ -23,6 +23,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void editClick(View view) {
+        Intent intent = new Intent(this, EditListActivity.class);
+        startActivity(intent);
+    }
+
     public void consultClick(View view) {
         Intent intent = new Intent(this, ConsultActivity.class);
         startActivity(intent);

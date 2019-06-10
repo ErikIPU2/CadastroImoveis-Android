@@ -7,10 +7,6 @@ import com.example.cadastroimoveis.imoveis.Apartamento;
 import com.example.cadastroimoveis.imoveis.Casa;
 import com.example.cadastroimoveis.imoveis.Comercial;
 import com.example.cadastroimoveis.imoveis.Condominio;
-import com.google.gson.Gson;
-import com.google.gson.JsonArray;
-import com.google.gson.JsonObject;
-import com.google.gson.reflect.TypeToken;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
@@ -22,8 +18,6 @@ import java.util.ArrayList;
 
 public class SharedPreferencesSaver {
     SharedPreferences sharedPreferences;
-    Gson gson = new Gson();
-
     private final String NAME = "imoveis";
 
     public SharedPreferencesSaver(Context context) {
@@ -32,7 +26,6 @@ public class SharedPreferencesSaver {
 
     public void saveData(ArrayList<Casa> casas) {
         SharedPreferences.Editor editor = this.sharedPreferences.edit();
-        String json = this.gson.toJson(casas);
         editor.putString(this.NAME, this.arrayListToJson(casas));
         editor.apply();
     }
