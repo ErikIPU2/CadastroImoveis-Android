@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Cadastro de imoveis</string>
+    <string name="bem_vindo">Bem vindo!</string>
+    <string name="selecione_o_que_deseja_fazer">Selecione o que deseja fazer:</string>
+    <string name="adicionar">Adicionar</string>
+    <string name="editar">Editar</string>
+    <string name="consultar">Consultar</string>
+    <string name="_1">1.</string>
+    <string name="selecione_o_tipo_de_imovel">Selecione o tipo de imovel: </string>
+    <string name="casa">Casa</string>
+    <string name="casa_em_condominio">Casa em Condominio</string>
+    <string name="apartamento">Apartamento</string>
+    <string name="imovel_comercial">Imovel Comercial</string>
+    <string name="_2">2.</string>
+    <string name="digite_as_informacoes">Digite as informações</string>
+    <string name="nome_do_proprietario">Nome do proprietario</string>
+    <string name="endereco">Endereço</string>
+    <string name="tamanho_em_metros_quadrados">Tamanho em metros quadrados</string>
+    <string name="ano_de_construcao">Ano de construção</string>
+    <string name="andar">Andar</string>
+    <string name="_3">3.</string>
+    <string name="aperte_no_botao_abaixo">Aperte no botão abaixo</string>
+    <string name="adicionar_imovel">Adicionar imovel</string>
+    <string name="faltou_preenches_os_seguintes_campos">Faltou preencher os seguintes campos: </string>
+    <string name="selecionar_o_tipo_do_imovel">Selecionar o tipo do imovel</string>
+    <string name="selecione_a_casa_que_deseja_consultar">Selecione a casa que deseja consultar:</string>
+    <string name="ver">Ver</string>
+    <string name="nome_do_proprietario_layout">Nome do Proprietario: %s</string>
+    <string name="endereco_layout">Endereço: %s</string>
+    <string name="tamanho_layout">Tamanho: %.2f m²</string>
+    <string name="ano_de_construcao_layout">Ano de construção: %d</string>
+    <string name="andar_layout">Andar: %d</string>
+    <string name="tipo_do_imovel_layout">Tipo do imovel: %s</string>
+    <string name="valor_do_imposto_layout">Valor do imposto: R$%.2f</string>
+</resources>
